@@ -1,10 +1,11 @@
 import React from 'react';
-import imagesUrl from './__components/ImagesUrl'
+import { imagesUrl } from './__components/ImagesUrl'
+import ImageSlider from './__components/ImageSlider';
 
 export default function page() {
   return (
     <div className=''>
-      Image-slider
+      <ImageSlider imagesUrl={imagesUrl} />
     </div>
   )
 }

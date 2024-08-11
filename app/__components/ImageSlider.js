@@ -5,7 +5,7 @@ export default function ImageSlider( {imagesUrl} ) {
     <div className='w-full h-[500px]'>
       <button className="">prev</button>
       {
-        imagesUrl?.map((imgeUrl , index) => <img src="" alt="" className={`w-full h-full duration-700`} key={index}/>)
+        imagesUrl?.map((imageUrl , index) => <img src={imageUrl} alt="" className={`w-full h-full duration-700 bg-red-500`} key={index}/>)
       }
       <button className="">next</button>
     </div>
